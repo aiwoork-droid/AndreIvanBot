@@ -308,7 +308,7 @@ if __name__ == "__main__":
     reminder_thread.start()
     
     # Запускаем бота
-    bot.infinity_polling())
+    bot.infinity_polling()
 
 # ===== ЗАПУСК БОТА В ОТДЕЛЬНОМ ПОТОКЕ =====
 def run_bot():
